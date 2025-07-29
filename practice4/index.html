@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Guide Styles - Emojis and ASCII Table</title>
+    <style>
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      font-family: Arial, sans-serif;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      text-align: center;
+      padding: 8px;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    h2 {
+      color: #1a75cf;
+    }
+  </style>
+
+</head>
+<body>
+    <h2>1. Emojis in HTML</h2>
+    <div>
+        <b>Direct Emoji Example:</b>
+        <span class="emoji">😀😃😃😃😃😃😃</span>
+        <br><br>
+        <b>Another Emoji:</b> <span class="emoji">&#10084;&#65039;</span>
+        <br><br>
+        <b>Using Unicode Entity:</b>
+        <code>&amp;#128512;</code> → <span class="emoji">&#128512;</span>
+        <br><br>
+        We <span class="emoji">&#128522;</span> HTML <span class="emoji">&#128512;</span> &amp; CSS!
+    </div>
+
+    <h2>2. ASCII Values Table</h2>
+    <table>
+        <tr>
+            <th>Character</th>
+            <th>ASCII Value</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>65</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>97</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>48</td>
+        </tr>
+        <tr>
+            <td>@</td>
+            <td>64</td>
+        </tr>
+        <tr>
+            <td>Space</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>$</td>
+            <td>36</td>
+   </tr>
+    </table>
+
+    <div>
+        ASCII helps in converting characters into numbers that computers can understand.
+    </div>
+
+      <div class="container">
+        <h1>URL Encoding Visualization</h1>
+
+        <div class="example">
+            <div class="label"> Before Encoding:</div>
+            <div class="url">https://www.google.com/search?q=hello world & learn HTML</div>
+        </div>
+
+        <div class="example">
+            <div class="label"> After Encoding:</div>
+            <div class="url">https://www.google.com/search?q=hello%20world%20%26%20learn%20HTML</div>
+        </div>
+    </div>
+
+</body>
+</html>
